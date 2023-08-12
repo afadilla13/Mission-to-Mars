@@ -1,6 +1,6 @@
 # Mars Data Scraping and Analysis
 
-This repository provides a comprehensive guide to scraping and analyzing Mars data from two distinct sources: Mars News and Mars Temperature Data. The project involves using web scraping techniques to gather relevant information, followed by data analysis and visualization.
+This repository provides a comprehensive guide to scraping and analyzing Mars data from various sources, including Mars News and Mars Temperature Data. The project involves using web scraping techniques to gather relevant information, followed by data analysis and visualization.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -10,24 +10,23 @@ This repository provides a comprehensive guide to scraping and analyzing Mars da
 - [Visualization](#visualization)
 - [Notebooks](#notebooks)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 In this project, we explore the fascinating realm of Mars by collecting and analyzing data from various sources. Through web scraping and data analysis, we aim to gain insights into Mars News and Mars Temperature Data, shedding light on different aspects of the Red Planet.
 
 ## Project Parts
-This project consists of two main parts:
+This project consists of multiple parts:
 
 ### Part 1: Mars News
 - Open `part_1_mars_news.ipynb`.
-- Utilize automated browsing techniques to access Mars News website and identify scraping targets.
+- Utilize automated browsing techniques to access [Mars News](https://static.bc-edx.com/data/web/mars_news/index.html) and identify scraping targets.
 - Create a Beautiful Soup object to extract titles and preview text.
 - Organize data into Python dictionaries within a list.
 - Optional: Export collected data to a JSON file.
 
 ### Part 2: Mars Weather Data
 - Open `part_2_mars_weather.ipynb`.
-- Scrape Mars Temperature Data using Beautiful Soup or Pandas.
+- Scrape [Mars Temperature Data](https://static.bc-edx.com/data/web/mars_facts/temperature.html) using Beautiful Soup or Pandas.
 - Structure data into a Pandas DataFrame with well-defined columns.
 - Conduct insightful data analysis, including:
   - Determining the number of Mars months
@@ -41,7 +40,7 @@ This project consists of two main parts:
 ## Getting Started
 To replicate or build upon this project, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/mars-data-analysis.git`
+1. Clone this repository: `git clone https://github.com/afadilla13/mars-data-analysis.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Open and explore the provided Jupyter Notebook files in the `notebooks` directory.
 
@@ -59,8 +58,5 @@ For detailed step-by-step instructions and code, refer to the Jupyter Notebook f
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to submit a pull request.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
 
 Happy data exploration on Mars!
